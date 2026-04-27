@@ -8,6 +8,13 @@ public enum ClaudePermissionMode: String, Codable, Sendable {
     case plan
     case dontAsk
     case bypassPermissions
+    case auto
+
+    public init(from decoder: any Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        let rawValue = try container.decode(String.self)
+        self = ClaudePermissionMode(rawValue: rawValue) ?? .default
+    }
 }
 
 public enum ClaudePermissionBehavior: String, Codable, Sendable {
