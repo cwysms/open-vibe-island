@@ -168,7 +168,7 @@ public enum ClaudePermissionUpdate: Equatable, Codable, Sendable {
                 return "Yes, and bypass permissions"
             case .plan:
                 return "Plan Mode"
-            case .default:
+            case .default, .auto:
                 return "Manual Mode"
             }
         case .replaceRules:
