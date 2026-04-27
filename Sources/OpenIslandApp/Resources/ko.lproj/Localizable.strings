@@ -1,0 +1,205 @@
+/* Common */
+"app.name" = "Open Island";
+"app.name.oss" = "Open Island OSS";
+"app.description" = "macOS AI 코딩 에이전트 동반자";
+
+/* Settings - Tab Labels */
+"settings.tab.general" = "일반";
+"settings.tab.display" = "디스플레이";
+"settings.tab.sound" = "사운드";
+"settings.tab.shortcuts" = "단축키";
+"settings.tab.lab" = "실험실";
+"settings.tab.about" = "정보";
+
+/* Settings - Section Headers */
+"settings.section.system" = "시스템";
+"settings.section.advanced" = "고급";
+
+/* Settings - General */
+"settings.general.launchAtLogin" = "로그인 시 시작";
+"settings.general.monitor" = "모니터";
+"settings.general.automatic" = "자동";
+"settings.general.behavior" = "동작";
+"settings.general.hideFullscreen" = "전체 화면에서 숨기기";
+"settings.general.autoHideNoSessions" = "활성 세션 없을 때 자동 숨기기";
+"settings.general.autoCollapse" = "마우스 떠날 때 자동 축소";
+"settings.general.showDockIcon" = "Dock에 아이콘 표시";
+"settings.general.hapticFeedback" = "호버 시 햅틱 피드백";
+"settings.general.suppressFrontmostNotifications" = "전면 세션 알림 표시 안 함";
+"settings.general.showCodexUsage" = "Codex 사용량 표시";
+"settings.general.completionReply" = "완료 카드에서 답장";
+"settings.general.cliHooks" = "CLI Hooks";
+"settings.general.activated" = "활성화됨";
+"settings.general.install" = "설치";
+"settings.general.uninstall" = "제거";
+"settings.general.uninstallConfirmTitle" = "Hooks를 제거하시겠습니까?";
+"settings.general.uninstallConfirmAction" = "제거";
+"settings.general.uninstallConfirmMessage.claude" = "Claude Code에서 Open Island의 hooks가 제거됩니다. 언제든지 다시 설치할 수 있습니다.";
+"settings.general.uninstallConfirmMessage.codex" = "Codex에서 Open Island의 hooks가 제거됩니다. 언제든지 다시 설치할 수 있습니다.";
+"settings.general.uninstallConfirmMessage.claudeUsage" = "Claude 사용량 브리지가 제거됩니다. 언제든지 다시 설치할 수 있습니다.";
+"settings.general.cancel" = "취소";
+"settings.general.language" = "언어";
+"settings.general.languageSystem" = "시스템 설정 따름";
+"settings.general.languageEnglish" = "English";
+"settings.general.languageKorean" = "한국어";
+
+/* Settings - Appearance */
+"settings.tab.appearance" = "개인화";
+"settings.appearance.mode" = "모드";
+"settings.appearance.mode.default" = "기본";
+"settings.appearance.mode.custom" = "커스텀";
+"settings.appearance.mode.defaultDesc" = "기본 내장 아일랜드 외관을 사용합니다. 커스텀으로 전환하여 색상, 그래픽 스타일, 레이아웃을 개인화할 수 있습니다.";
+"settings.appearance.preview" = "미리보기";
+"settings.appearance.preview.sessions" = "개 세션";
+"settings.appearance.style" = "스타일";
+"settings.appearance.closedStyle" = "축소 스타일";
+"settings.appearance.style.minimal" = "미니멀";
+"settings.appearance.style.detailed" = "상세";
+"settings.appearance.hideIdleToEdge" = "유휴 시 엣지로 숨기기";
+"settings.appearance.hideIdleToEdge.help" = "아일랜드가 축소 상태이고 활성 알림 카드가 없을 때 얇은 검은색 테두리만 남깁니다. 마우스 호버 또는 클릭으로 여전히 펼칠 수 있습니다.";
+"settings.appearance.pixelShape" = "픽셀 모양";
+"settings.appearance.pixelShape.bars" = "고양이";
+"settings.appearance.pixelShape.steps" = "계단";
+"settings.appearance.pixelShape.blocks" = "블록";
+"settings.appearance.pixelShape.custom" = "커스텀";
+"settings.appearance.avatar.upload" = "이미지 업로드";
+"settings.appearance.avatar.remove" = "제거";
+"settings.appearance.avatar.help" = "PNG, JPEG, HEIC, TIFF 지원, 최대 10 MB.";
+"settings.appearance.statusColors" = "상태 색상";
+"settings.appearance.status.running" = "실행 중";
+"settings.appearance.status.approval" = "승인 대기";
+"settings.appearance.status.answer" = "답변 대기";
+"settings.appearance.status.completed" = "완료";
+"settings.appearance.communityNote" = "여기 대부분의 내용은 커뮤니티에서 만들어졌습니다.\n당신의 vibe가 있나요? PR을 환영합니다.";
+
+/* Settings - Display */
+"settings.display.monitor" = "모니터";
+"settings.display.position" = "표시 위치";
+"settings.display.diagnostics" = "진단";
+"settings.display.currentScreen" = "현재 화면";
+"settings.display.layoutMode" = "레이아웃 모드";
+
+/* Settings - Sound */
+"settings.sound.notifications" = "알림 사운드";
+"settings.sound.mute" = "음소거";
+"settings.sound.selectSound" = "사운드 선택";
+
+/* Settings - Setup */
+"settings.tab.setup" = "설치 안내";
+"setup.section.binary" = "Hook 바이너리";
+"setup.claudeConfigDir.section" = "Claude 설정 디렉토리";
+"setup.claudeConfigDir.title" = "설정 디렉토리";
+"setup.claudeConfigDir.choose" = "선택…";
+"setup.claudeConfigDir.reset" = "초기화";
+"setup.claudeConfigDir.footer" = "CLAUDE_CONFIG_DIR로 커스텀 설정 경로를 사용하여 Claude Code를 시작하는 사용자에게 적용됩니다. 필요하지 않은 경우 기본값을 유지하세요.";
+"setup.section.hooks" = "CLI Hooks";
+"setup.section.usage" = "사용량 브리지";
+"setup.section.permissions" = "권한";
+"setup.binaryReady" = "준비됨";
+"setup.binaryMissing" = "찾을 수 없음 — OpenIslandHooks를 먼저 빌드하세요";
+"setup.hookReady" = "Hooks 설치됨";
+"setup.hookMissing" = "Hooks 미설치";
+"setup.usageBridge" = "Claude 사용량 브리지";
+"setup.usageBridgeReady" = "설치됨";
+"setup.usageBridgeDesc" = "Claude API 사용량을 로컬에서 추적";
+"setup.optional" = "선택사항";
+"setup.permissionsTitle" = "손쉬운 사용";
+"setup.permissionsDesc" = "Open Island는 터미널 창을 감지하기 위해 손쉬운 사용 권한이 필요할 수 있습니다. 「시스템 설정 → 개인 정보 보호 및 보안 → 손쉬운 사용」에서 권한을 부여하세요.";
+"setup.installAll" = "모두 설치";
+"setup.banner.noHooks.title" = "Open Island 시작하기";
+"setup.banner.noHooks.message" = "사용하는 Agent에 hook을 설치하면 Open Island가 해당 세션을 모니터링하기 시작합니다.";
+"setup.revealConfigLocation" = "Finder에서 설정 표시";
+"setup.section.diagnostics" = "Hooks 진단";
+"setup.diagnostics.notRun" = "아직 상태 확인이 실행되지 않았습니다.";
+"setup.diagnostics.runCheck" = "확인 실행";
+"setup.diagnostics.recheck" = "다시 확인";
+"setup.diagnostics.repair" = "Hooks 수정";
+"setup.diagnostics.allHealthy" = "모든 Hooks가 정상적으로 작동 중입니다.";
+
+/* Settings - Placeholder */
+"settings.shortcuts.comingSoon" = "단축키 설정이 곧 출시됩니다.";
+"settings.lab.comingSoon" = "실험적 기능이 곧 출시됩니다.";
+
+/* Settings - About */
+"settings.about.version" = "버전 %@";
+"settings.about.checkForUpdates" = "업데이트 확인…";
+"settings.about.quitApp" = "Open Island 종료";
+"island.quit.confirmTitle" = "Open Island를 종료하시겠습니까?";
+"island.quit.confirmAction" = "종료";
+"island.quit.confirmMessage" = "정말로 종료하시겠습니까?";
+
+/* Settings - Update */
+"settings.update.available" = "v%@ 업데이트 가능 — 클릭하여 업데이트";
+
+/* Island Panel - Bootstrap */
+"island.checkingTerminals" = "열려 있는 터미널 세션을 확인 중";
+"island.terminalOwnership" = "터미널 소유권 확인 후 Open Island가 실시간 에이전트를 표시합니다";
+"island.noTerminals" = "열려 있는 터미널 세션이 없습니다";
+"island.startAgent" = "터미널에서 코딩 에이전트를 시작하세요";
+"island.recentSessions" = "최근 세션은 터미널이 다시 열릴 때까지 컨트롤 센터에 유지됩니다";
+"island.hint.installHooks" = "아직 Agent hook이 설치되지 않아 세션이 이벤트를 트리거하지 않습니다 · 클릭하여 설정";
+
+/* Island Panel - Session List */
+"island.showAll" = "모든 %lld개 세션 표시";
+"island.collapseList" = "목록 축소";
+"island.usageWaiting" = "사용량 데이터 대기 중";
+
+
+/* Island Panel - Subagents & Tasks */
+"subagents.title" = "서브에이전트 (%lld)";
+"subagents.completed" = "완료";
+"tasks.summary" = "태스크 (%lld 완료, %lld 진행 중, %lld 대기 중)";
+
+/* Island Panel - Question */
+"question.submit" = "답변 제출";
+"question.answerNeeded" = "답변 필요";
+"question.otherPlaceholder" = "답변을 입력하세요…";
+
+/* Island Panel - Completion */
+"completion.done" = "완료";
+"completion.replyPlaceholder" = "Claude에게 답장…";
+
+/* Menu Bar */
+"menu.status" = "%lld 활성 · %lld 대기 중";
+"menu.settings" = "설정…";
+"menu.openDebug" = "디버그 패널 열기";
+"menu.hideOverlay" = "아일랜드 오버레이 숨기기";
+"menu.showOverlay" = "아일랜드 오버레이 표시";
+"menu.refreshCodexHooks" = "Codex Hook 상태 새로고침";
+"menu.uninstallCodexHooks" = "Codex Hooks 제거";
+"menu.installCodexHooks" = "Codex Hooks 설치";
+"menu.refreshClaudeHooks" = "Claude Hook 상태 새로고침";
+"menu.uninstallClaudeHooks" = "Claude Hooks 제거";
+"menu.installClaudeHooks" = "Claude Hooks 설치";
+"menu.liveTool" = "현재 도구: %@";
+"menu.tracking" = "추적: %@";
+
+/* Debug Panel */
+"debug.title" = "Open Island 디버그";
+"debug.description" = "Mock 기반 Notch 인터페이스 테스트 도구로 세션 목록, 승인, Q&A 및 완료 카드를 검증합니다.";
+"debug.scenarios" = "시나리오";
+"debug.actions" = "작업";
+"debug.actionsDescription" = "인라인 미리보기는 격리되어 있습니다. 실제 상단 아일랜드가 현재 Mock을 미러링하도록 하려면 아래 버튼을 사용하세요.";
+"debug.mirrorToIsland" = "아일랜드에 미러링";
+"debug.closeIsland" = "아일랜드 닫기";
+"debug.currentMock" = "현재 Mock";
+"debug.liveOverlay" = "실시간 오버레이";
+"debug.inlinePreview" = "인라인 미리보기";
+"debug.previewDescription" = "이 미리보기는 안정적이며 실시간 Bridge 활동을 무시합니다.";
+"debug.visible" = "보임";
+"debug.surface" = "인터페이스";
+"debug.sessions" = "세션";
+"debug.message" = "메시지";
+"debug.yes" = "예";
+"debug.no" = "아니오";
+"debug.refresh" = "새로고침";
+"debug.removeHooks" = "Hooks 제거";
+"debug.installHooks" = "Hooks 설치";
+"debug.removeBridge" = "Bridge 제거";
+"debug.installBridge" = "Bridge 설치";
+"debug.sessionList" = "세션 목록";
+"debug.sessionListActionable" = "세션 목록 (실행 가능)";
+
+/* Window Titles */
+"window.settings" = "Open Island 설정";
+"window.debug" = "Open Island 디버그";

@@ -18,7 +18,7 @@ done < <(find "$repo_root/Sources" -name '*.strings' -type f)
 if (( failed )); then
     echo ""
     echo "Localizable.strings validation failed. Common causes:"
-    echo "  - Chinese quotes "" inside values (use「」or \\\" instead)"
+    echo "  - Typographic quotes "" inside values (use 「」 or \\\" instead)"
     echo "  - Missing semicolons at end of lines"
     echo "  - Unescaped backslashes or special characters"
     exit 1
