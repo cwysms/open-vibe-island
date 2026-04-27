@@ -1,7 +1,7 @@
 /* Common */
 "app.name" = "Open Island";
 "app.name.oss" = "Open Island OSS";
-"app.description" = "macOS AI 코딩 에이전트 동반자";
+"app.description" = "macOS AI 코딩 에이전트 파트너";
 
 /* Settings - Tab Labels */
 "settings.tab.general" = "일반";
